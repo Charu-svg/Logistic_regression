@@ -1,4 +1,4 @@
-#  Classification using Logistic Regression
+#  Breast_cancer Classification using Logistic Regression
 
 ## Project Objective
 Build a binary classifier to predict whether a tumor is **malignant (cancerous)** or **benign (non-cancerous)** using the **Breast Cancer Wisconsin dataset** and **Logistic Regression**.
@@ -44,4 +44,24 @@ Example features:
 - **ROC Curve & AUC**
 - **Threshold Tuning**: Adjusted threshold to maximize F1-score  
 
-Example:
+
+---
+
+## 📌 How to Run  
+
+### 1. Clone or Download Project  
+```bash
+git clone https://github.com/your-username/Breast_Cancer_Logistic_Regression.git
+cd Breast_Cancer_Logistic_Regression
+### 2.Create Virtual Environment (Optional but Recommended)
+python -m venv venv
+venv\Scripts\activate   # On Windows
+source venv/bin/activate  # On Mac/Linux
+### 3.Install Dependencies
+pip install -r requirements.txt
+### 4.Run the Script
+python Logistic_regression.py
+### 5. Test with New Data
+new_data = [[14.0, 20.0, 90.0, 600.0, ..., 0.08]]  # 30 values
+
+
