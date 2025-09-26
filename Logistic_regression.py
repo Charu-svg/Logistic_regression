@@ -16,14 +16,16 @@ from sklearn.metrics import (
 )
 
 # -----------------------------
-# 1. Load Dataset
-# -----------------------------
 data = load_breast_cancer()
 X = pd.DataFrame(data.data, columns=data.feature_names)
 y = pd.Series(data.target)
 
 print("Class distribution:")
 print(y.value_counts(normalize=True))
+
+# Check number of features
+print(len(data.feature_names))  # Should be 30
+print(data.feature_names)       # Show all feature names
 
 # -----------------------------
 # 2. Train/Test Split
