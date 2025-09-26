@@ -1,4 +1,4 @@
-# Breast Cancer Classification using Logistic Regression
+#  Classification using Logistic Regression
 
 ## Project Objective
 Build a binary classifier to predict whether a tumor is **malignant (cancerous)** or **benign (non-cancerous)** using the **Breast Cancer Wisconsin dataset** and **Logistic Regression**.
